@@ -1,0 +1,105 @@
+
+
+
+<!DOCTYPE html> 
+ <html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My ArcID</title> 
+    <link rel="icon" type="image/x-icon" href="bluearc.png"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js" defer></script> 
+</head> 
+<body> 
+    <header> 
+        <div class="theme-toggle"> 
+            <button id="theme-toggle">🌙</button> 
+        </div> 
+        <div class="logo-container"> 
+            <img src="images/arcfishstamp.png" alt="Arcfish Logo"> 
+            <h1>Legacy Profile</h1> 
+        </div> 
+    </header> 
+    <nav> 
+        <ul> 
+            <li><a href="index.html"><button>Home</button></a></li> 
+            <li><a href="games.html"><button>Games</button></a></li> 
+            <li><a href="series.html"><button>Series</button></a></li> 
+            <li><a href="reads.html"><button>Reads</button></a></li> 
+            <li><a href="profile.html"><button class="active">Profile</button></a></li> 
+            <li><a href="about.html"><button>About</button></a></li> 
+        </ul> 
+    </nav> 
+ <section class="register">
+            <div class="register-card">
+                <h2>The world just got a little bigger...</h2>
+                <p>Let the world remember you by creating your ArcID!</p>
+                <form id="registerForm" method="POST" class="register-form" novalidate>
+                    <label for="reg-username">Create ArcID:</label>
+                    <input type="text" id="reg-username" name="username" placeholder="Enter Username" required>
+                    <br>
+                    <label for="reg-password"> Create Password:</label>
+                    <input type="password" id="reg-password" name="password" placeholder="Enter Password" required>
+                    <br>
+                    <label for="reg-confirm-password">Confirm Password:</label>
+                    <input type="password" id="reg-confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                    <br>
+                    <label for="reg-email">Email Address:</label>
+                    <input type="email" id="reg-email" name="email" placeholder="Enter Email" required>
+                    <br>
+                    <label for="reg-birthdate">Birthdate:</label>
+                    <input type="date" id="reg-birthdate" name="birthdate" required>
+                    <br>
+                    <label class="terms">
+                            <input type="checkbox" id="reg-terms" required>
+                            I agree to the <a href="#" id="openTerms">Terms of Use</a> and <a href="#" id="openPrivacy">Privacy Policy</a>
+                    </label>
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <span id="closeModal" class="close">&times;</span>
+                            <iframe id="modalFrame" src="" width="100%" height="400px"></iframe>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit">Begin My Journey</button>
+                </form>
+            </div>
+        </section>
+    
+</main>
+<footer>
+    <section class="footer">
+    <section class="footer-text">
+        <p>Contact Us</p>
+    </section>
+    <div class="button-row">
+        <a href="mailto:admin@arcfishstudios.com" class="footer-btn">Email</a>
+    </div>
+    <section class="footer-text">
+        <p>Join our community!</p>
+    </section>
+    <div class="button-row">
+        <a href="https://discord.gg/mc7sT3frT7" target="_blank" class="footer-btn">Discord</a>
+    </div>
+    <section class="footer-text">
+        <p>Find us on social media!</p>
+    </section>
+    <div class="button-row">
+        <a href="https://www.instagram.com/arcfishuniverse/" target="_blank" class="footer-btn">Instagram</a>
+        <a href="https://www.tiktok.com/@arcfishuniverse" target="_blank" class="footer-btn">TikTok</a>
+        <a href="https://www.facebook.com//profile.php?id=61580161754847" target="_blank" class="footer-btn">Facebook</a>
+        <a href="https://twitter.com/arcfishuniverse" target="_blank" class="footer-btn">Twitter</a>
+    </div>
+    <section class="footer-text">
+       <label class="terms">
+        <p>Read our <a href="terms.html">Terms of Use</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+        <p>&copy; 2025 Arcfish Studios. All rights reserved.</p>
+        </label>
+    </section>    
+    </section>
+    </footer>   
+</body>
+</html>
+
+

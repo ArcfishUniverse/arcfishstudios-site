@@ -1,0 +1,90 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Legacy Page</title>
+    <link rel="icon" type="image/x-icon" href="bluearc.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle">
+            <button id="theme-toggle">🌙</button>
+        </div>    
+        <div class="logo-container">
+            <img src="images/arcfishstamp.png" alt="Arcfish Logo">
+            <h1>Edit My Legacy</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><button>Home</button></a></li>
+            <li><a href="games.html"><button>Games</button></a></li>
+            <li><a href="series.html"><button>Series</button></a></li>
+            <li><a href="reads.html"><button>Reads</button></a></li>
+            <li><a href="profile.html"><button class="active">Profile</button></a></li>
+            <li><a href="about.html"><button>About</button></a></li>
+        </ul>
+    </nav>
+<main class="profile">
+    <div class="profile-card">
+      <form id="editProfileForm" class="profile-form">
+        <h2>Edit Profile</h2>
+        <label for="edit-username">Username:</label>
+        <input type="text" id="edit-username" name="username" placeholder="Update username">
+
+        <label for="edit-email">Email:</label>
+        <input type="email" id="edit-email" name="email" placeholder="Update email">
+
+        <label for="edit-bio">Bio:</label>
+        <textarea id="edit-bio" name="bio" placeholder="Tell us about your legend..."></textarea>
+
+        <label for="edit-password">New Password:</label>
+        <input type="password" id="edit-password" name="password" placeholder="Leave blank to keep password">
+
+        <button type="submit">Save Changes</button>
+      </form>
+
+      <button onclick="window.location.href='profile.html'">Cancel</button>
+    </div>
+  </main>
+ <footer>
+    <section class="footer">
+    <section class="footer-text">
+        <p>Contact Us</p>
+    </section>
+    <div class="button-row">
+        <a href="mailto:admin@arcfishstudios.com" class="footer-btn">Email</a>
+    </div>
+    <section class="footer-text">
+        <p>Join our community!</p>
+    </section>
+    <div class="button-row">
+        <a href="https://discord.gg/mc7sT3frT7" target="_blank" class="footer-btn">Discord</a>
+    </div>
+    <section class="footer-text">
+        <p>Find us on social media!</p>
+    </section>
+    <div class="button-row">
+        <a href="https://www.instagram.com/arcfishuniverse/" target="_blank" class="footer-btn">Instagram</a>
+        <a href="https://www.tiktok.com/@arcfishuniverse" target="_blank" class="footer-btn">TikTok</a>
+        <a href="https://www.facebook.com//profile.php?id=61580161754847" target="_blank" class="footer-btn">Facebook</a>
+        <a href="https://twitter.com/arcfishuniverse" target="_blank" class="footer-btn">Twitter</a>
+    </div>
+    <section class="footer-text">
+       <label class="terms">
+        <p>Read our <a href="terms.html">Terms of Use</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+        <p>&copy; 2025 Arcfish Studios. All rights reserved.</p>
+        </label>
+    </section>    
+    </section>
+    </footer>   
+</body>
+</html>
+
+
